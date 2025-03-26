@@ -1,0 +1,9 @@
+/* CSS for main screen background with radial gradient */
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: radial-gradient(circle, darkgrey, black);
+}
