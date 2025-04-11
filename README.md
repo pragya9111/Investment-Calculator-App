@@ -1,59 +1,61 @@
 # InvestmentCalculatorApp
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.5.
+The **InvestmentCalculatorApp** is a web-based application built using Angular. It allows users to calculate potential returns on investments based on various parameters such as principal amount, interest rate, and investment duration. The application is designed to provide a user-friendly interface and accurate calculations for financial planning.
 
-## Development server
+## Live Preview
 
-To start a local development server, run:
+You can access the live version of the application here:
 
-```bash
-ng serve
+## Project Overview
+
+This project was developed using **Angular CLI** version 19.2.5. It demonstrates the use of Angular's core features, including components, services, and data binding, to create a dynamic and interactive user experience.
+
+### Key Features
+
+- **Investment Calculation**: Calculate returns based on user inputs like principal, rate of interest, and time period.
+- **Dynamic Updates**: Real-time updates to the results as users modify input values.
+- **Responsive Design**: Optimized for both desktop and mobile devices.
+- **Error Handling**: Validation for user inputs to ensure accurate calculations.
+- **Modular Architecture**: Clean and maintainable code structure using Angular best practices.
+
+## Folder Structure
+
+The project follows a standard Angular folder structure:
+
+```
+investment-calculator-app/
+├── src/
+│   ├── app/
+│   │   ├── components/       # Contains all reusable components
+│   │   │   ├── calculator/   # Main investment calculator component
+│   │   │   ├── header/       # Header component
+│   │   │   └── footer/       # Footer component
+│   │   ├── services/         # Contains application services (e.g., calculation logic)
+│   │   ├── models/           # Defines TypeScript interfaces and models
+│   │   └── app.module.ts     # Root module of the application
+│   ├── assets/               # Static assets like images and styles
+│   ├── environments/         # Environment-specific configurations
+│   └── index.html            # Main HTML file
+├── angular.json              # Angular CLI configuration
+├── package.json              # Project dependencies and scripts
+└── README.md                 # Project documentation
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+## Functionalities
 
-## Code scaffolding
+1. **User Input**: Users can input the principal amount, interest rate, and investment duration.
+2. **Real-Time Calculation**: The app dynamically calculates and displays the investment returns.
+3. **Interactive UI**: A clean and intuitive interface for seamless user interaction.
+4. **Validation**: Ensures all inputs are valid before performing calculations.
+5. **Responsive Design**: Works flawlessly on devices of all sizes.
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+## How to Use
 
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+1. Clone the repository to your local machine.
+2. Install dependencies using `npm install`.
+3. Start the development server with `ng serve`.
+4. Open your browser and navigate to `http://localhost:4200/`.
 
 ## Additional Resources
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+For more information about Angular, visit the [Angular Official Documentation](https://angular.io/docs).
