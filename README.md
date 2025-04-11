@@ -4,8 +4,8 @@ The **InvestmentCalculatorApp** is a web-based application built using Angular. 
 
 ## Live Preview
 
-You can access the live version of the application here:
-
+You can access the live version of the application here: [Investment Calculator App](https://investment-calculator-app-zeta.vercel.app/
+)
 ## Project Overview
 
 This project was developed using **Angular CLI** version 19.2.5. It demonstrates the use of Angular's core features, including components, services, and data binding, to create a dynamic and interactive user experience.
