@@ -1,6 +1,5 @@
-import { Component, EventEmitter, output, Output, signal } from '@angular/core';
+import { Component, signal } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { InvestmentInput } from '../investment-input.model';
 import { InvestmentService } from '../investment.service';
 
 @Component({
